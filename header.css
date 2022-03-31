@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.mailus{
+    display: block;
+}
+.mailus a:hover{
+    opacity: .5;
+    
+}
+.mailus samp:hover{
+    opacity: .5;
+    
+}
+.mailus img{
+    margin-bottom: 4px;
+    height: 30px;
+    width: 50px;
+    size: 100;
+}
+samp{
+    margin-bottom: 15px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+    font-family: 'Montserrat', sans-serif;
+   padding: 30px;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(60deg, #b63819 0%, #123e70 100%);
+}
+h5{
+    padding: 5px;
+}
+h4{
+    padding: 8px;
+}
+
+
+#years .years h3{
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(53, 85, 85);
+    font-size:x-large;
+    font-weight:900;
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@1,300&family=Roboto:wght@300&display=swap');
+    font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+ 

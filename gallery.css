@@ -1,0 +1,103 @@
+#cards .items img:hover{
+    
+        border: 4px solid rgb(39, 32, 105);
+        border-radius: 20px;
+        box-shadow: 11px 10px 20px gray;
+}
+.content{
+        background-image: linear-gradient(50deg, #818bca 0%, #dba699 100%);
+        
+}
+img{
+        margin-left: 5px;
+        margin-top: 9px;
+        height:100px;
+        width: 100px;
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        padding: 5px 5px;
+}
+a{
+        display: inline;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+}
+.h2 h2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 10px;
+        /* border: 3px solid black; */
+}
+.nav p{
+        text-align: center;
+        font-size: large;
+}
+hr{
+        /* display: none; */
+        box-shadow: 0px 7px 10px rgb(102, 102, 102);
+}
+.btn{
+        display: none;
+}
+
+/* ------------------------------responsive------------------------------------------ */
+
+@media only screen and (min-width: 768px) {
+img{
+        margin-left: 10px;
+        height: 340px;
+        margin-top: 10px;
+        width: 350px;
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+       
+}
+.btn{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+              
+              
+       
+       
+}
+.btn button:hover{
+        background-color: rgb(25, 113, 196);
+        border-radius: 20px 40px;
+        transition-delay: .2s;
+        box-shadow: 0px 0px 20px white;
+        /* z-index: -5; */
+        outline: 0!important;
+        outline-offset: 0;
+        border: 2px solid rgb(249,211,27);
+}
+.btn button{
+        opacity: .8;
+        background-color: crimson;
+        color: white;
+       width: 10%;
+       padding: 10px 22px;
+       font-size: 25px;
+       cursor: pointer;
+  text-align: center;
+  
+       height: 20%;
+}
+.btn a{
+        text-align: center;
+
+        text-decoration: none;
+        /* background-color: crimson; */
+        color: white;
+        }
+}

@@ -1,0 +1,135 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+
+.footer{
+   display: flex;
+   flex-direction: column;
+   justify-items: center;
+   align-items: center;
+}
+.col1{ 
+margin: 0px -58px -142px -570px;
+}
+.col2{ 
+margin: -18px -65px -142px -140px;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@1,300&family=Roboto:wght@300&display=swap');
+footer{
+    font-size: small;
+    font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+    padding: 80px;
+    padding-bottom: 100px;
+    background: #222222;
+    color: #777777;
+  
+}
+
+.footer a{
+    text-decoration: none;
+    color: #777777;
+}
+.footer ul li{
+    list-style: none;
+    padding-bottom: 6px;
+}
+.footer .cols{
+    /* padding-top: 14px; */
+    padding-bottom: 30px;
+}
+.cols .col2 li{
+    padding-top: 7px;
+}
+.cols .school-name{
+    font-size:medium;
+    font-weight: 690;
+}
+.cols .head{
+    padding-bottom: 10px;
+    color: white;
+}
+.cols .col4 li{
+    list-style: none;
+}
+.cols .col4 .map{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.footer-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    background-color: #4d4d4d;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+    color: #b3b3b3;
+    font-size: x-small;
+     
+}
+.footer .phone img{
+    height: 22px;
+    width: 19px;
+}
+.footer .mailid img{
+    height: 22px;
+    width: 20px;
+}
+.footer-bottom .twitter img{
+   height: 30px;
+   
+}
+.footer-bottom .heading{
+    color: white;
+    font-size: 17px;
+    font-weight: 590;
+}
+.footer-bottom .logo{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.footer-bottom .heading, .logo{
+   margin-left: 20px;
+}
+
+.footer-bottom .footer-container{
+    margin-right: 27px;
+}
+.twitter{
+    padding-left: 5px;
+}
+.fb{
+    padding-right: 5px;
+}
+.footer-bottom img:hover{
+    filter: blur(.7px);
+   
+    
+}
+
+
+
+
+/* ---------------------------------- responsive ------------------------------- */
+@media only screen and (min-width: 768px){
+ .cols .col2{
+    margin-top: -200px;
+    margin-left: 340px;
+ }
+ .cols .col3{
+    margin-top: -270px;
+    margin-left: 640px;
+ }
+ .cols .col4{
+    margin-top: -242px;
+    margin-left: 945px;
+ }}
