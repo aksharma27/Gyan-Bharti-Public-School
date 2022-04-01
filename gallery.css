@@ -1,8 +1,8 @@
 #cards .items img:hover{
     
-        border: 4px solid rgb(39, 32, 105);
-        border-radius: 20px;
-        box-shadow: 11px 10px 20px gray;
+        border: 1px solid rgb(39, 32, 105);
+        border-radius: 10px;
+        box-shadow: 11px 10px 20px rgb(112, 112, 112);
 }
 .content{
         background-image: linear-gradient(50deg, #818bca 0%, #dba699 100%);

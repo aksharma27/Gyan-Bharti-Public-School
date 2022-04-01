@@ -113,9 +113,15 @@ font-family: 'Roboto', sans-serif;
 .footer-bottom img:hover{
     filter: blur(.7px);
    
-    
 }
-
+.footer  span{
+    color: rgb(36, 89, 174);
+    margin-left: -25px;
+}
+.footer .col4 span{
+    color: rgb(4, 105, 245);
+    margin-left: -25px;
+}
 
 
 
@@ -126,10 +132,10 @@ font-family: 'Roboto', sans-serif;
     margin-left: 340px;
  }
  .cols .col3{
-    margin-top: -270px;
+    margin-top: -275px;
     margin-left: 640px;
  }
  .cols .col4{
-    margin-top: -242px;
+    margin-top: -245px;
     margin-left: 945px;
  }}
