@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,59 +9,89 @@
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="footer.css">
     <style>
-        .dev{
+        .dev {
             display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+           text-align: center;
             background-color: antiquewhite;
             padding-top: 8px;
-            padding-bottom: 8px ;
+            padding-bottom: 8px;
             font-size: large;
         }
-        .dev a{
+
+        hr {
+            margin-top: 12px;
+        }
+
+        .dev a {
             text-decoration: none;
             font-weight: 600;
         }
-        .dev a:hover{
+
+        .dev a:hover {
             color: red;
         }
-        .dev .phn{
+
+        .dev .phn {
             display: block;
             flex-direction: column;
         }
-      .dev span{
-          font-weight: 600;
-      }
 
+        .dev span {
+            font-weight: 600;
+        }
+
+        .connects samp {
+            margin-top: 10px;
+            color: black;
+        }
+        .git img
+        {
+            height: 29px;
+
+        }
+        .devtwitter img{
+            height: 29px;
+             
+        }
+        .devmail img{
+            height: 29px;
+        }
+        .devphn img{
+            height: 29px;
+        }
+        .socials img:hover{
+            transform: scale(.76);
+            transition: .26s;
+        }
     </style>
 </head>
+
 <body>
-     <!-- --------------------------------header------------------------------------------- -->
-
-
-     
-
-     <div class="header">
-         <div class="logo"></div>
-         <div class="title">
-             <h1> GYAN BHARTI PUBLIC SCHOOL</h1><br>
-             <h3>BELCHAMPA, GARHWA - 822124, JHARKHAND, INDIA</h3>
-             <h5>Managed by - Gyan Bharti Educational & Welfare Trust</h5>
-             <h4>Estd. 2009</h4>
-         </div>
-         <div class="mailus">
-             <a href="#"> <img src="./images/mailus.png" alt="mailus" class="mail"> <samp>Mail Us</samp></a>
-             <a href="#"> <img src="./images/joinus.png" alt="mailus" class="join"> <samp>Join Us</samp></a>
-         </div>
-     </div>
- 
- 
- 
-     <!-- ---------------------------------end of header---------------------------------------------  -->
+    <!-- --------------------------------header------------------------------------------- -->
 
 
 
+
+    <div class="header">
+        <div class="logo"></div>
+        <div class="title">
+            <h1> GYAN BHARTI PUBLIC SCHOOL</h1><br>
+            <h3>BELCHAMPA, GARHWA - 822124, JHARKHAND, INDIA</h3>
+            <h5>Managed by - Gyan Bharti Educational & Welfare Trust</h5>
+            <h4>Estd. 2009</h4>
+        </div>
+        <div class="mailus">
+            <a href="mailto:anandgbps11@gmail.com"> <img src="./images/mailus.png" alt="mailus" class="mail"> <samp>Mail Us</samp></a>
+            <a href="join.html"> <img src="./images/joinus.png" alt="mailus" class="join"> <samp>Join Us</samp></a>
+        </div>
+    </div>
+
+
+
+    <!-- ---------------------------------end of header---------------------------------------------  -->
 
 
 
@@ -68,22 +99,43 @@
 
 
 
-     <!-- -------------------------------------------content------------------------------------------------- -->
 
 
 
-     <div class="dev">
-         <div class="content">
-             <p class="devinfo">This website is developed by <a href="https://wa.me/+919142998113">Mr. Abhishek Kumar Sharma.</a> <br> He is a freelance web-developer. If you want to make a personal/business etc. website, contact him below </p>
-             <div class="contactinfo">
+    <!-- -------------------------------------------content------------------------------------------------- -->
+
+
+
+    <div class="dev">
+        <div class="content">
+            <p class="devinfo">This website is developed by <a href="https://wa.me/+919142998113">Mr. Abhishek Kumar
+                    Sharma.</a> <br> He is a freelance web-developer. If you want to make a personal/business etc.
+                website, contact him below: </p>
+            <div class="contactinfo">
                 <p>Phone Number: <span>+(91) 9142998113</span></p>
                 <p>Mail Id: <span>enquireabhishek@gmail.com</span></p>
-             </div>
-         </div>
-     </div>
+            </div>
+            <hr>
+            <div class="connects">
+                <p><samp>Connect with me on:</samp> </p>
+                <div class="socials">
+                    <a href="https://www.facebook.com/profile.php?id=100044040106078" class="devfb" target="blank"
+                        title="My facebook"><img src="/images/fblogo.png" alt=""></a>
+                    <a href="https://www.instagram.com/me_aksharma/" class="devig" target="blank" title="My Instagram"><img src="/images/instalogo.png" alt=""></a>
+                    <a href="https://twitter.com/Abhishek27crj" class="devtwitter" target="blank" title="My Twitter"><img src="/images/twitterlog.png" alt=""></a>
+                    <a href="https://www.linkedin.com/in/abhishek-kumar-sharma-303a88220/" target="blank" class="linkedin" title="My Linkedin"><img src="/images/linkedinlogo.png" alt=""></a>
+                    <a href="https://www.youtube.com/channel/UCVi-wKNAX-D4fEFG0w5rVBA" class="yt" target="blank" title="My Youtube Channer"><img src="/images/ytlogo.png" alt=""></a>
+                    <a href="https://github.com/aksharma27" class="git" target="blank" title="My GitHub" ><img src="/images/gitloog.png" alt=""></a>
+                    <a href="mailto:enquireabhishek@gmail.com" class="devmail" title="My mailid"><img src="./images/devmail.png" alt="email"></a>
+                    <a href="https://wa.me/+919142998113" target="blank" title="My Whatsapp" class="devphone"><img src="/images/wsp.png" alt=""></a>
+                    <a href="tel:+9142998113" class="devphn" title="My Phone Number"><img src="/images/devphn.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
-     <!-- ----------------------------------------------end contents---------------------------------------------------------- -->
+    <!-- ----------------------------------------------end contents---------------------------------------------------------- -->
 
 
 
@@ -108,12 +160,12 @@
                         <li class="school-name">GYAN BHARTI PUBLIC SCHOOL</li>
                         <li class="school-address">Belchampa - Garhwa,<br> Jharkhand</li>
                         <li class="pin-code">Pin: 822124</li>
-                        <li class="phone"><a href="#"> <img src="./images/phon.png" alt="phone"> (+91) 9308754575</a>
+                        <li class="phone"><a href="tel:+919308754575"> <img src="./images/phon.png" alt="phone"> (+91) 9308754575</a>
                         </li>
-                        <li class="mailid"><a href="#"><img src="./images/email.png" alt="email">
+                        <li class="mailid"><a href="mailto:anandgbps11@gmail.com"><img src="./images/email.png" alt="email">
                                 anandgbps11@gmail.com</a>
                         </li>
-                        
+
                     </ul>
                 </div>
             </div>
@@ -127,7 +179,8 @@
                     <ul>
                         <li class="Home"><a href="index.html">Home</a></li>
                         -------------------------------
-                        <li class="facilities"><a href="facilities.html">Facilities</a></li>-------------------------------
+                        <li class="facilities"><a href="facilities.html">Facilities</a></li>
+                        -------------------------------
                         <li class="notice"><a href="#">Notice</a></li>-------------------------------
                         <li class="staff"><a href="#">Staff</a></li>-------------------------------
                     </ul>
@@ -145,7 +198,7 @@
                         -------------------------------
                         <li class="developer"><a href="#">Contact Website Developer</a></li>
                         -------------------------------
-                       
+
                     </ul>
                 </div>
             </div>
@@ -187,14 +240,16 @@
         <div class="connect">
             <div class="heading">Connect With Us</div>
             <div class="logo">
-               <div class="fb">
-                   <a href="https://www.facebook.com/GyanBhartiPublicSchoolBelchampa" target="blank"><img src="./images/fblogo.png" alt=""></a>
-               </div>
-               <div class="twitter">
-                   <a href="#"><img src="./images/twitterlog.png" alt=""></a>
-               </div>
+                <div class="fb">
+                    <a href="https://www.facebook.com/GyanBhartiPublicSchoolBelchampa" target="blank"><img
+                            src="./images/fblogo.png" alt=""></a>
+                </div>
+                <div class="twitter">
+                    <a href="#"><img src="./images/twitterlog.png" alt="img"></a>
+                </div>
             </div>
         </div>
-    </div> 
+    </div>
 </body>
+
 </html>

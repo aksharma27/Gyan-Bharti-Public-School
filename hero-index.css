@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Bebas+Neue&family=Kalam:wght@300&family=Montserrat:ital,wght@1,300&family=Open+Sans:wght@300&family=Roboto:wght@300&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Bebas+Neue&family=Kalam:wght@300&family=Montserrat:ital,wght@1,300&family=Open+Sans:wght@300&family=Roboto:wght@300&family=Shadows+Into+Light&family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Bebas+Neue&family=Kalam:wght@300&family=Montserrat:ital,wght@1,300&family=Open+Sans:wght@300&family=Roboto:wght@100&family=Shadows+Into+Light&family=Teko&display=swap');
+
+.font {
+    font-family: 'Alumni Sans Inline One', cursive;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Kalam', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.badi-badi-baatein {
+    font-weight: 500;
+    background-color: #3c8665;
+    color: white;
+    font-family: 'Alumni Sans Inline One', cursive;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Kalam', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Teko', sans-serif;
+    font-size: large;
+    line-height: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 14px;
+}
+
+/* ----------------------------------------------------------- about school------------------------------------------------ */
+.about-school-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Alumni Sans Inline One', cursive;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Kalam', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Teko', sans-serif;
+    float: left;
+    margin-top: 10px;
+    margin-left: 11px;
+}
+ .about-school-container p{
+  display: block;
+    padding-top: 90px;
+    padding-left: 19px;
+    line-height: 25px;
+    padding-right: 14px;
+}
+
+.about-school-header span {
+   color: crimson;
+
+}
+
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+    .about-school-header{
+        float:none;
+        margin-left: -62%;
+    }
+    .about-school-container p{
+        padding-left: 13.4%;
+        padding-top: 34px;
+        padding-right: 12%;
+        padding-bottom: 25px;
+    }
+}
