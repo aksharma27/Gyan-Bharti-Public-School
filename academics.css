@@ -38,6 +38,26 @@
     padding-left: 11px;
     padding-bottom: 20px;
 }
+.guidlines{
+    padding-left: 11px;
+    padding-right: 11px;   
+}
+.guidlines ul{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.guidlines ul li{
+    list-style: none;
+}
+.guidlines ul li:before {
+    content: '✓';
+  }
+.guidlines h1{
+    background-color: #3c8665;
+    color: white;
+    padding-left: 11px;
+    padding-right: 11px;
+}
 .teacher-details{
     padding-left: 11px;
     padding-right: 11px;
@@ -47,6 +67,42 @@
     color: white;
     padding-left: 11px;
     padding-right: 11px;
+}
+.uniform{
+    padding-left: 11px;
+    padding-right: 11px;
+}
+.uniform h1{
+    background-color: #3c8665;
+    color: white;
+    padding-left: 11px;
+    padding-right: 11px;
+}
+.uniform h2{
+    background-color: rgb(214, 214, 214);
+    margin-top: 35px;
+}
+th{
+    /* display: flex;
+    flex-direction: column; */
+    padding: 15px;
+  text-align: left;
+    height: 30px;
+}
+td{
+    /* display: flex;
+    flex-direction: column; */
+    padding: 15px;
+    text-align: left;
+}
+table{
+    /* display: flex;
+    flex-direction: column; */
+    border: 1px solid;
+    width: 100%;
+}
+td:hover{
+    background-color: coral;
 }
 
 
@@ -66,5 +122,10 @@
     .academics-container{
         padding-left: 200px;
         padding-right: 200px;
+    }
+  
+    th{
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
